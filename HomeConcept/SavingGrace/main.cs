@@ -53,7 +53,7 @@ namespace SavingGrace
 
         private void QuoteButton_Click(object sender, EventArgs e)
         {
-            QuoteBuilder qb = new QuoteBuilder();
+            QuoteMaker qb = new QuoteMaker();
             qb.Show();
         }
 

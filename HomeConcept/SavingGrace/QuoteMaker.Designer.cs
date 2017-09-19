@@ -133,7 +133,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(4, 229);
+            this.dateTimePicker1.Location = new System.Drawing.Point(4, 209);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 4;
@@ -141,7 +141,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1, 213);
+            this.label3.Location = new System.Drawing.Point(1, 193);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 5;
@@ -150,7 +150,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1, 295);
+            this.label4.Location = new System.Drawing.Point(1, 275);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 7;
@@ -159,7 +159,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(56, 292);
+            this.comboBox2.Location = new System.Drawing.Point(56, 272);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(148, 21);
             this.comboBox2.TabIndex = 6;
@@ -272,7 +272,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(87, 15);
+            this.button2.Location = new System.Drawing.Point(88, 11);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 35);
             this.button2.TabIndex = 15;
@@ -546,7 +546,7 @@
             this.groupBox3.Controls.Add(this.radioButton5);
             this.groupBox3.Controls.Add(this.radioButton3);
             this.groupBox3.Controls.Add(this.radioButton4);
-            this.groupBox3.Location = new System.Drawing.Point(243, 213);
+            this.groupBox3.Location = new System.Drawing.Point(243, 193);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 100);
             this.groupBox3.TabIndex = 34;
@@ -561,15 +561,15 @@
             this.groupBox4.Controls.Add(this.button4);
             this.groupBox4.Controls.Add(this.button3);
             this.groupBox4.Controls.Add(this.button2);
-            this.groupBox4.Location = new System.Drawing.Point(453, 251);
+            this.groupBox4.Location = new System.Drawing.Point(4, 299);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(252, 103);
+            this.groupBox4.Size = new System.Drawing.Size(495, 52);
             this.groupBox4.TabIndex = 35;
             this.groupBox4.TabStop = false;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(168, 15);
+            this.button3.Location = new System.Drawing.Point(169, 11);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 35);
             this.button3.TabIndex = 16;
@@ -579,7 +579,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(87, 58);
+            this.button4.Location = new System.Drawing.Point(331, 11);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 35);
             this.button4.TabIndex = 17;
@@ -592,7 +592,7 @@
             this.tabControl1.Location = new System.Drawing.Point(449, 31);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(399, 218);
+            this.tabControl1.Size = new System.Drawing.Size(399, 262);
             this.tabControl1.TabIndex = 36;
             // 
             // tabPage1
@@ -601,7 +601,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(391, 192);
+            this.tabPage1.Size = new System.Drawing.Size(391, 236);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Notes";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -614,10 +614,11 @@
             this.button5.TabIndex = 37;
             this.button5.Text = "Exit";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(168, 58);
+            this.button6.Location = new System.Drawing.Point(412, 11);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 35);
             this.button6.TabIndex = 18;
@@ -626,7 +627,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(6, 15);
+            this.button7.Location = new System.Drawing.Point(7, 11);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 35);
             this.button7.TabIndex = 19;
@@ -635,7 +636,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(6, 56);
+            this.button8.Location = new System.Drawing.Point(250, 11);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 35);
             this.button8.TabIndex = 20;
@@ -647,7 +648,7 @@
             this.textBox13.Location = new System.Drawing.Point(5, 6);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(381, 182);
+            this.textBox13.Size = new System.Drawing.Size(381, 227);
             this.textBox13.TabIndex = 0;
             // 
             // QuoteMaker
