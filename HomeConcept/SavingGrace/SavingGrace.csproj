@@ -49,6 +49,12 @@
     <Compile Include="Invoicing.Designer.cs">
       <DependentUpon>Invoicing.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuoteMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteMaker.Designer.cs">
+      <DependentUpon>QuoteMaker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Scheduling.cs">
       <SubType>Form</SubType>
     </Compile>
