@@ -61,14 +61,14 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -79,15 +79,15 @@
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.textBox13 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -182,7 +182,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(782, 5);
+            this.textBox3.Location = new System.Drawing.Point(725, 5);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(123, 20);
@@ -191,7 +191,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(697, 9);
+            this.label6.Location = new System.Drawing.Point(640, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 13);
             this.label6.TabIndex = 11;
@@ -383,58 +383,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cost Analysis Overview";
             // 
-            // label11
+            // textBox11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(25, 21);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(73, 13);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Materials Cost";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(40, 47);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(58, 13);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Labor Cost";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(40, 73);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(56, 13);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Misc. Cost";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(104, 14);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(123, 20);
-            this.textBox8.TabIndex = 24;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(104, 40);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(123, 20);
-            this.textBox9.TabIndex = 25;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(104, 66);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(123, 20);
-            this.textBox10.TabIndex = 26;
+            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Location = new System.Drawing.Point(104, 108);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
+            this.textBox11.Size = new System.Drawing.Size(123, 22);
+            this.textBox11.TabIndex = 24;
             // 
             // label14
             // 
@@ -446,14 +402,58 @@
             this.label14.TabIndex = 27;
             this.label14.Text = "Total Cost";
             // 
-            // textBox11
+            // textBox10
             // 
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(104, 108);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(123, 22);
-            this.textBox11.TabIndex = 24;
+            this.textBox10.Location = new System.Drawing.Point(104, 66);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(123, 20);
+            this.textBox10.TabIndex = 26;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(104, 40);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.ReadOnly = true;
+            this.textBox9.Size = new System.Drawing.Size(123, 20);
+            this.textBox9.TabIndex = 25;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(104, 14);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
+            this.textBox8.Size = new System.Drawing.Size(123, 20);
+            this.textBox8.TabIndex = 24;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(40, 73);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(56, 13);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Misc. Cost";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(40, 47);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(58, 13);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Labor Cost";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(25, 21);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(73, 13);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Materials Cost";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // textBox12
             // 
@@ -567,15 +567,32 @@
             this.groupBox4.TabIndex = 35;
             this.groupBox4.TabStop = false;
             // 
-            // button3
+            // button8
             // 
-            this.button3.Location = new System.Drawing.Point(169, 11);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 35);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Convert To Invoice";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button8.Location = new System.Drawing.Point(250, 11);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 35);
+            this.button8.TabIndex = 20;
+            this.button8.Text = "Preview Quote";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(7, 11);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 35);
+            this.button7.TabIndex = 19;
+            this.button7.Text = "Save Quote";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(412, 11);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 35);
+            this.button6.TabIndex = 18;
+            this.button6.Text = "Cost Analysis";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -585,6 +602,16 @@
             this.button4.TabIndex = 17;
             this.button4.Text = "Email Quote";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(169, 11);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 35);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "Convert To Invoice";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabControl1
             // 
@@ -606,6 +633,14 @@
             this.tabPage1.Text = "Notes";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(5, 6);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(381, 227);
+            this.textBox13.TabIndex = 0;
+            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(6, 661);
@@ -615,41 +650,6 @@
             this.button5.Text = "Exit";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(412, 11);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 35);
-            this.button6.TabIndex = 18;
-            this.button6.Text = "Cost Analysis";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(7, 11);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 35);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Save Quote";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(250, 11);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 35);
-            this.button8.TabIndex = 20;
-            this.button8.Text = "Preview Quote";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(5, 6);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(381, 227);
-            this.textBox13.TabIndex = 0;
             // 
             // QuoteMaker
             // 
