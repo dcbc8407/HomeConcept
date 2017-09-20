@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E472EFF4-8C91-4B9F-AEE5-6876668B34D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SavingGrace</RootNamespace>
+    <AssemblyName>SavingGrace</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoicing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoicing.Designer.cs">
+      <DependentUpon>Invoicing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteMaker.Designer.cs">
+      <DependentUpon>QuoteMaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scheduling.Designer.cs">
+      <DependentUpon>Scheduling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteBuilder.Designer.cs">
+      <DependentUpon>QuoteBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoicing.resx">
+      <DependentUpon>Invoicing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteMaker.resx">
+      <DependentUpon>QuoteMaker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scheduling.resx">
+      <DependentUpon>Scheduling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteBuilder.resx">
+      <DependentUpon>QuoteBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
