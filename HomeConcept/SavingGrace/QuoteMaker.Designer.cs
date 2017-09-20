@@ -363,7 +363,7 @@
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Location = new System.Drawing.Point(624, 535);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(226, 149);
+            this.groupBox1.Size = new System.Drawing.Size(226, 147);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Totals";
@@ -380,7 +380,7 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Location = new System.Drawing.Point(347, 535);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(237, 149);
+            this.groupBox2.Size = new System.Drawing.Size(237, 147);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cost Analysis Overview";
