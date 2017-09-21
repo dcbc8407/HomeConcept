@@ -51,5 +51,25 @@ namespace SavingGrace
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            /*ComboBox cb = (ComboBox)sender;
+            string item = cb.Text;
+            if (item != null)
+                MessageBox.Show(item);*/
+            
+            if (comboBox1.Text=="John Doe Enterprises")
+            {
+                textBox1.Text = "1111 West Dreamer St. \r\n" + "New York, NY   10025";
+                textBox2.Text = "Jim Dugan";
+                textBox12.Text = textBox1.Text;
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
